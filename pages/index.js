@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Header from '../components/Header';
+import Header from '../components/Header.js';
+import Hero from '../components/Hero';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
-        <h2>main content</h2>
+        <Hero />
       </main>
       <footer className={styles.footer}>
         <h2>footer</h2>
