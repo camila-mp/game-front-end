@@ -1,0 +1,5 @@
+.hero-container {
+  background-image: url("../public/Assets/hero-1920px.png");
+  height: 100vh;
+  width: 100vw;
+}
