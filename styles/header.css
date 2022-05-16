@@ -1,7 +1,10 @@
+/* used for styling next images: https://www.peterlunch.com/snippets/next-image-styling */
+
 .header {
   align-items: center;
   background-color: black;
   border: none;
+  color: white;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -9,6 +12,21 @@
   left: 0px;
   top: 0px;
   width: 100%;
+}
+
+.nav-desktop {
+  align-items: center;
+  display: none;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nav-link {
+  margin: 33.5px 20px;
 }
 
 .nav {
@@ -24,7 +42,10 @@
   color: white;
   font-family: 'Teko', sans-serif;
   font-size: 18px;
+  font-weight: 500;
   padding: 10px 24px;
+  text-transform: uppercase;
+  height: 48px;
 }
 
 .icon-container {
@@ -32,10 +53,34 @@
   margin-left: 16px;
 }
 
-.logo {
-  width: 114px;
+.logo-container {
+  height: 40px !important;
+  padding: 0px;
+  margin: 20px 16px;
+  width: 114px !important;
 }
 
-.logo-container {
-  margin: 20px 16px;
+@media only screen and (min-width: 650px) {
+  .header {
+    height: 88px;
+  }
+
+  .nav-desktop {
+    display: flex;
+  }
+  
+  .icon-container {
+    display: none;
+  }
+
+  .logo-container {
+    height: 48px !important;
+    margin: 20px 50px !important;
+    width: 136.8px !important;
+  }
+
+  .logo-container > span {
+    height: 48px !important;
+    width: 136.8px !important;
+  }
 }
