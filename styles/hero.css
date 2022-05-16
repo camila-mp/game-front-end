@@ -1,5 +1,29 @@
 .hero-container {
-  background-image: url("../public/Assets/hero-1920px.png");
+  background-image: url("../public/Assets/hero-764px.png") !important;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  margin-top: 70px;
   height: 100vh;
   width: 100vw;
+}
+
+.spray-wrapper {
+  position: relative;
+  overflow: hidden;
+  top: 300px;
+  width: 100vw;
+}
+
+.spray-wrapper > span {
+  overflow: hidden !important;
+  height: auto !important;
+  max-width: 650px !important;
+  right: 200px !important;
+  width: 623px !important;
+}
+
+@media only screen and (min-width: 650px) {
+  .spray-container {
+    translate: 0;
+  }
 }
