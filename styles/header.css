@@ -54,10 +54,10 @@
 }
 
 .logo-container {
-  height: 40px !important;
+  height: 40px;
   padding: 0px;
   margin: 20px 16px;
-  width: 114px !important;
+  width: 114px;
 }
 
 @media only screen and (min-width: 650px) {
