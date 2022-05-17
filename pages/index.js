@@ -15,9 +15,6 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
       </main>
-      <footer className={styles.footer}>
-        <h2>footer</h2>
-      </footer>
     </div>
   )
 }
