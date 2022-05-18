@@ -1,0 +1,58 @@
+.about-event-container {
+  background-color: black;
+  height: 640px;
+  left: 16px;
+  top: 48px;
+  width: 343px;
+}
+
+.about-event-container > h6 {
+  color: #F2A900;
+  font-family: 'Headliner No. 45';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  margin: 40px 0 10px 0;
+}
+
+.about-event-container > h2 {
+  color: white;
+  font-family: 'Headliner No. 45';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 112%;
+  margin: 5px;
+}
+
+.about-event-container > div > button {
+  margin-top: 38px;
+  margin-bottom: 0px;
+}
+
+.about-text {
+  color: white;
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 184%;
+  top: 10px;
+}
+
+.rules-link {
+  color: #FFB70F;
+  font-weight: 700;
+  font-size: 14px;
+  height: 21px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.rules-div {
+  margin-top: 10px;
+}
+
+.grad-line-wrapper > span {
+  position: relative;
+}
