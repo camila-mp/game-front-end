@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import LoginOrCreateButton from "./LoginOrCreateButton";
 import spray from '../public/Assets/spray-bg.png';
 import vikendi from '../public/Assets/VikendiWonderlandLogo.png';
 import vikendi_desk from '../public/Assets/VikendiWonderlandLogo_desk.png';
@@ -28,7 +29,7 @@ const Hero = () => {
           alt="vikendi logo"
         />
       </div>
-      <button className="hero-button">login or create account</button>
+      <LoginOrCreateButton/>
     </section>
   )
 }
