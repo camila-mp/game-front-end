@@ -1,0 +1,15 @@
+
+.login-create-button {
+  align-items: center;
+  background: #F2A900;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 24px;
+  text-transform: uppercase;
+}
