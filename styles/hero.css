@@ -29,22 +29,10 @@
   width: 345px !important;
 }
 
-.hero-button {
-  align-items: center;
-  background: #F2A900;
-  border-radius: 2px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: 'Teko', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+.hero-container > div > button {
   height: 48px;
   left: calc(50% - 201px/2);
-  padding: 10px 24px;
   position: absolute;
-  text-transform: uppercase;
   top: 585px;
   width: 201px;
 }
@@ -87,7 +75,7 @@
     bottom: 180px;
   }
 
-  .hero-button {
+  .hero-container > div > button {
     left: 178px;
     top: 530px;
   }
