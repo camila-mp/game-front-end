@@ -1,0 +1,83 @@
+.characters-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  margin-top: 6vh;
+  width: 100vw;
+}
+
+.background-images {
+  background-color: black;
+  position: relative;
+  width: 96%;
+}
+
+.topography-wrapper {
+  position: absolute;
+  left: -57%;
+  top: 18%;
+  z-index: 1;
+  width: 120%;
+}
+
+.map-wrapper {
+  position: absolute;
+  left: -14%;
+  top: 1%;
+  z-index: 3;
+  width: 98%;
+}
+
+.map-wrapper > span {
+  opacity: 80% !important;
+}
+
+.sparks {
+  position: absolute;
+  background-image: linear-gradient(261.97deg, rgba(0, 0, 0, 0.99) 11.63%, rgba(0, 0, 0, 0) 32.73%), url("../public/Assets/img-sparks_mobile.png");
+  background-blend-mode: lighten;
+  height: 32vh;
+  overflow: hidden;
+  left: 2%;
+  top: 31vh;
+  z-index: 2;
+  width: 59vw;
+}
+
+.mask-char-wrapper {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  z-index: 4;
+  width: 56%;
+}
+
+.g-char-wrapper {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-left: 6%;
+  z-index: 4;
+  width: 41%;
+}
+
+@media only screen and (min-width: 650px) {
+  .characters-container {
+    height: auto;
+    margin-top: 2%;
+    width: 50%;
+  }
+
+  .sparks {
+    position: absolute;
+    background-image: linear-gradient(
+      261.97deg, rgba(0, 0, 0, 0.99) 11.63%, rgba(0, 0, 0, 0) 32.73%
+      ), url("../public/Assets/img-sparks.png");
+    height: 47vh;
+    left: -39%;
+    top: 34vh;
+    z-index: 2;
+    width: 100%;
+  }
+}
