@@ -3,6 +3,7 @@ import '../styles/header.css'
 import '../styles/hero.css'
 import '../styles/aboutArticle.css'
 import '../styles/loginOrCreateButton.css'
+import '../styles/about.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
