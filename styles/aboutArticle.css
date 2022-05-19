@@ -1,8 +1,9 @@
 .about-event-container {
   background-color: black;
   height: 640px;
-  left: 16px;
   top: 48px;
+  margin-left: 16px;
+  margin-right: 16px;
   width: 343px;
 }
 
@@ -55,4 +56,11 @@
 
 .grad-line-wrapper > span {
   position: relative;
+}
+
+@media only screen and (min-width: 650px) {
+  .about-event-container {
+    margin-top: 4%;
+    width: 38%;
+  }
 }
