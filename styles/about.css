@@ -1,0 +1,22 @@
+.about-page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 650px) {
+  .about-page {
+    flex-flow: row nowrap;
+    position: relative;
+    width: 100vw;
+  }
+
+  .characters-container {
+    order: 1
+  }
+
+  .about-event-container {
+    order: 2;
+  }
+}
