@@ -6,6 +6,7 @@ import '../styles/loginOrCreateButton.css'
 import '../styles/about.css'
 import '../styles/aboutCharacters.css'
 import '../styles/rewards.css'
+import '../styles/prizeBox.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
