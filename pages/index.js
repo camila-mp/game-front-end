@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Header from '../components/Header.js';
 import Hero from '../components/Hero';
 import About from './about';
+import Rewards from './rewards';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero/>
         <About/>
+        <Rewards/>
       </main>
     </div>
   )
