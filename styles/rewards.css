@@ -1,0 +1,60 @@
+.rewards-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 100vw;
+}
+
+.rewards-container > h6 {
+  align-items: center;
+  color: #F2A900;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Headliner No. 45';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  text-transform: uppercase;
+  margin: 2rem 1rem 0rem 1rem;
+  width: 90%;
+}
+
+.rewards-container > h2 {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Headliner No. 45';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 112%;
+  text-transform: uppercase;
+  margin: 0.3rem 1rem 1rem 1rem;
+}
+
+.rewards-container > p {
+  color: white;
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 184%;
+  margin: 0.5rem 1rem 1rem 1rem;
+}
+
+.prize-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 10px;
+  width: 100%;
+}
+
+.grafiti-wrapper {
+  position: absolute;
+  z-index: 1;
+}
