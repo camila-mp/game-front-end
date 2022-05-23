@@ -1,0 +1,12 @@
+.pictures-container {
+  background-image: url("../public/Assets/loot-red-smoke.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: 2px solid #3f3f3f;
+  display: flex;
+  justify-content: center;
+  margin: .2rem .5rem;
+  height: 298px;
+  width: 327px;
+}
+
