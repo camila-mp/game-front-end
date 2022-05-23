@@ -1,11 +1,54 @@
 .box {
   background-color: #313131;
+  background-image: url("../public/Assets/dust-bg-bottom.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  margin: 2rem 1rem 2.875rem 1rem;
   z-index: 2;
-  width: 95%;
+  margin: 10% 1rem 1.5rem;
+  width: min-content;
+}
+
+.prize-title {
+  color: white;
+  font-family: 'Headliner No. 45', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 128%;
+  letter-spacing: 0em;
+  margin: 1rem 1rem 1rem 1.5rem;
+  text-align: left;
+  z-index: 5;
+}
+
+.prizes {
+  color: #FFB70F;
+  font-family: 'Teko', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  text-align: center;
+  margin: 0rem 2rem 2rem;
+}
+
+.spray-wrapper-r {
+  position: absolute;
+  top: -3%;
+  right: -6%;
+  z-index: 3;
+  width: 109%;
+}
+
+.box > p {
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem 2rem .5rem;
 }
