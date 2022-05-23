@@ -7,6 +7,7 @@ import '../styles/about.css'
 import '../styles/aboutCharacters.css'
 import '../styles/rewards.css'
 import '../styles/prizeBox.css'
+import '../styles/picturesPrizeBox.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
