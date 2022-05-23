@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto&family=Teko&display=swap');
 @import url('https://db.onlinewebfonts.com/c/03a61498fdceb889a05322cc7142e4dd?family=Headliner+No.+45');
+@import url('http://fonts.cdnfonts.com/css/bender');
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, 'Teko', Helvetica Neue, sans-serif, 'Headliner No. 45';
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, 'Teko', Helvetica Neue, sans-serif,
+    'Headliner No. 45', 'Chakra Petch';
 }
 
 a {
