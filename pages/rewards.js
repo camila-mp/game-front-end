@@ -1,7 +1,9 @@
 import React from "react";
 import PrizeBox from "../components/PrizeBox";
 import Image from "next/image";
-import grafiti from '../public/Assets/img-pubggraffitti.png'
+import grafiti from '../public/Assets/img-pubggraffitti.png';
+import PicturesPrizeBox1 from "../components/PicturesPrizeBox1";
+import PicturesPrizeBox2 from "../components/PicturesPrizeBox2";
 
 const Rewards = () => {
   const title_first_prize = '1 GRAND PRIZE WINNER';
@@ -22,13 +24,17 @@ const Rewards = () => {
         <PrizeBox
           title={title_first_prize}
           prizes={grand_prize}
-          color={'yellow'}
-        />
+          sprayColor={'yellow'}
+        >
+          <PicturesPrizeBox1/>
+        </PrizeBox>
         <PrizeBox 
           title={title_other_prizes}
           prizes={other_prizes}
-          color={'blue'}
-        />
+          sprayColor={'blue'}
+        >
+          <PicturesPrizeBox2/>
+        </PrizeBox>
       </div>
       <div className="grafiti-wrapper">
         <Image
