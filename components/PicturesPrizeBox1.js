@@ -53,6 +53,11 @@ const PicturesPrizeBox1 = () => {
           alt="mousepad"
         />
       </div>
+
+      <div className="background-rect-headphone"/>
+      <div className="background-rect-keyboard"/>
+      <div className="background-rect-mouse"/>
+      <div className="background-rect-mousepad"/>
     </section>
   )
 }

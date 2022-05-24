@@ -14,6 +14,10 @@
   width: 327px;
 }
 
+.picture {
+  z-index: 2;
+}
+
 .nickel-box {
   position: absolute;
   bottom: 56%;
@@ -43,7 +47,7 @@
 }
 
 .plus-sign {
-  bottom: 41%;
+  bottom: 43%;
   position: absolute;
   left: 43%;
   width: 16%;
@@ -65,7 +69,7 @@
 
 .mouse {
   bottom: 10%;
-  left: 50%;
+  left: 53%;
   position: absolute;
   width: 18%;
 }
@@ -73,6 +77,50 @@
 .mousepad {
   position: absolute;
   bottom: 9%;
-  left: 65%;
+  left: 69%;
   width: 33%;
+}
+
+.background-rect-headphone {
+  background-color: transparent;
+  border: 1px solid #4C4C4C;
+  bottom: 13%;
+  height: 53.61px;
+  left: 9%;
+  position: absolute;
+  width: 55.2px;
+  z-index: 1;
+}
+
+.background-rect-keyboard {
+  background-color: transparent;
+  border: 1px solid #4C4C4C;
+  bottom: 20%;
+  height: 52.14px;
+  left: 28%;
+  position: absolute;
+  width: 81.53px;
+  z-index: 1;
+}
+
+.background-rect-mouse {
+  background-color: transparent;
+  border: 1px solid #4C4C4C;
+  bottom: 12%;
+  height: 60.99px;
+  left: 55%;
+  position: absolute;
+  width: 55.3px;
+  z-index: 1;
+}
+
+.background-rect-mousepad {
+  background-color: transparent;
+  border: 1px solid #4C4C4C;
+  bottom: 19%;
+  height: 49.87px;
+  left: 76%;
+  position: absolute;
+  width: 67.38px;
+  z-index: 1;
 }
