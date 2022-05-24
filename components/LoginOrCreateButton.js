@@ -1,9 +1,9 @@
 import React from "react";
 
-const LoginOrCreateButton = () => {
+const LoginOrCreateButton = ({text}) => {
   return (
     <div>
-      <button className="login-create-button">login or create account</button>
+      <button className="login-create-button">{text}</button>
     </div>
   )
 }
