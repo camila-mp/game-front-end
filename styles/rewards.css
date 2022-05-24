@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   height: fit-content;
+  position: relative;
+  margin-bottom: 8rem;
   width: 100vw;
 }
 
@@ -56,5 +58,8 @@
 
 .grafiti-wrapper {
   position: absolute;
+  left: 35%;
+  top: 95.5%;
   z-index: 1;
+  width: 74%;
 }
