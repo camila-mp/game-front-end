@@ -29,7 +29,7 @@ const Hero = () => {
           alt="vikendi logo"
         />
       </div>
-      <LoginOrCreateButton/>
+      <LoginOrCreateButton text={'login or create account'}/>
     </section>
   )
 }

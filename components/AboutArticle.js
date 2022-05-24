@@ -23,7 +23,7 @@ const AboutArticle = () => {
       <div className="rules-div">
         <a className="rules-link" href="https://github.com/">see the official rules</a>
       </div>
-      <LoginOrCreateButton/>
+      <LoginOrCreateButton text={'login or create account'}/>
     </article>
   )
 }
