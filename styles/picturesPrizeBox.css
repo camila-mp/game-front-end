@@ -1,5 +1,4 @@
 .pictures-container {
-  align-content: space-around;
   background-color: #272727;
   background-image: url("../public/Assets/corner.png"), url("../public/Assets/corner-1.png"), url("../public/Assets/corner-2.png"), url("../public/Assets/corner-3.png"), url("../public/Assets/loot-red-smoke.png");
   background-repeat: no-repeat;
@@ -41,7 +40,7 @@
 
 .coupons-large {
   position: absolute;
-  bottom: 26%;
+  bottom: 17%;
   left: 5%;
   width: 40%;
 }
@@ -123,4 +122,129 @@
   position: absolute;
   width: 67.38px;
   z-index: 1;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .pictures-container {
+    background-color: #272727;
+    background-image: url("../public/Assets/corner.png"), url("../public/Assets/corner-1.png"), url("../public/Assets/corner-2.png"), url("../public/Assets/corner-3.png"), url("../public/Assets/loot-red-smoke.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top right, bottom left, top left, bottom;
+    background-size: 7%, 7%, 7%, 7%, auto;
+    border: 2px solid #3f3f3f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: .2rem .5rem;
+    height: 354px;
+    width: 464px;
+  }
+
+  .nickel-box {
+    position: absolute;
+    bottom: 45%;
+    left: 56%;
+    width: 30%;
+  }
+  
+  .nickel-box-large {
+    position: absolute;
+    bottom: 22%;
+    left: 57%;
+    width: 33%;
+  }
+  
+  .coupons {
+    position: absolute;
+    bottom: 43%;
+    left: 16%;
+    width: 50%;
+  }
+  
+  .coupons-large {
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+    width: 40%;
+  }
+  
+  .plus-sign {
+    bottom: 43%;
+    position: absolute;
+    left: 43%;
+    width: 16%;
+  }
+  
+  .headphone {
+    bottom: 9%;
+    left: 6%;
+    position: absolute;
+    width: 37%;
+  }
+  
+  .keyboard {
+    bottom: 17%;
+    left: 23%;
+    position: absolute;
+    width: 30%;
+  }
+  
+  .mouse {
+    bottom: 12%;
+    left: 52%;
+    position: absolute;
+    width: 20%;
+  }
+  
+  .mousepad {
+    position: absolute;
+    bottom: 9%;
+    left: 65%;
+    width: 33%;
+  }
+  
+  .background-rect-headphone {
+    background-color: transparent;
+    border: 1px solid #4C4C4C;
+    bottom: 13%;
+    height: 63px;
+    left: 13%;
+    position: absolute;
+    width: 64px;
+    z-index: 1;
+  }
+  
+  .background-rect-keyboard {
+    background-color: transparent;
+    border: 1px solid #4C4C4C;
+    bottom: 20%;
+    left: 29%;
+    position: absolute;
+    height: 61.31px;
+    width: 95.86px;
+    z-index: 1;
+  }
+  
+  .background-rect-mouse {
+    background-color: transparent;
+    border: 1px solid #4C4C4C;
+    bottom: 12%;
+    left: 53%;
+    height: 71.71px;
+    position: absolute;
+    width: 65.02px;
+    z-index: 1;
+  }
+  
+  .background-rect-mousepad {
+    background-color: transparent;
+    border: 1px solid #4C4C4C;
+    bottom: 19%;
+    left: 70%;
+    height: 58.63px;
+    position: absolute;
+    width: 79.22px;
+    z-index: 1;
+  }
 }
