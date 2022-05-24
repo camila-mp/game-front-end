@@ -1,12 +1,78 @@
 .pictures-container {
-  background-image: url("../public/Assets/loot-red-smoke.png");
+  align-content: space-around;
+  background-color: #272727;
+  background-image: url("../public/Assets/corner.png"), url("../public/Assets/corner-1.png"), url("../public/Assets/corner-2.png"), url("../public/Assets/corner-3.png"), url("../public/Assets/loot-red-smoke.png");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom right, top right, bottom left, top left, bottom;
+  background-size: 8%, 8%, 8%, 8%, auto;
   border: 2px solid #3f3f3f;
   display: flex;
   justify-content: center;
+  position: relative;
   margin: .2rem .5rem;
   height: 298px;
   width: 327px;
 }
 
+.nickel-box {
+  position: absolute;
+  bottom: 56%;
+  left: 61%;
+  width: 30%;
+}
+
+.nickel-box-large {
+  position: absolute;
+  bottom: 35%;
+  left: 62%;
+  width: 33%;
+}
+
+.coupons {
+  position: absolute;
+  bottom: 41%;
+  left: 3%;
+  width: 50%;
+}
+
+.coupons-large {
+  position: absolute;
+  bottom: 26%;
+  left: 5%;
+  width: 40%;
+}
+
+.plus-sign {
+  bottom: 41%;
+  position: absolute;
+  left: 43%;
+  width: 16%;
+}
+
+.headphone {
+  bottom: 6%;
+  left: -3%;
+  position: absolute;
+  width: 37%;
+}
+
+.keyboard {
+  bottom: 17%;
+  left: 22%;
+  position: absolute;
+  width: 30%;
+}
+
+.mouse {
+  bottom: 10%;
+  left: 50%;
+  position: absolute;
+  width: 18%;
+}
+
+.mousepad {
+  position: absolute;
+  bottom: 9%;
+  left: 65%;
+  width: 33%;
+}

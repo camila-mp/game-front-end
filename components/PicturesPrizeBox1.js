@@ -11,16 +11,34 @@ import plus_sign from "../public/Assets/plus_sign.png";
 const PicturesPrizeBox1 = () => {
   return (
     <section className="pictures-container">
+      <div className="picture coupons">
+        <Image
+          src={prize_coupons}
+          alt="contraband coupons"
+        />
+      </div>
       <div className="picture nickel-box">
         <Image
           src={nickel_box}
           alt="nickel box"
         />
       </div>
-      <div className="picture coupons">
+      <div className="picture plus-sign">
         <Image
-          src={prize_coupons}
-          alt="contraband coupons"
+          src={plus_sign}
+          alt="plus sign"
+        />
+      </div>
+      <div className="picture headphone">
+        <Image
+          src={headphone}
+          alt="headphone"
+        />
+      </div>
+      <div className="picture keyboard">
+        <Image
+          src={keyboard}
+          alt="keyboard"
         />
       </div>
       <div className="picture mouse">
@@ -33,24 +51,6 @@ const PicturesPrizeBox1 = () => {
         <Image
           src={mousepad}
           alt="mousepad"
-        />
-      </div>
-      <div className="picture keyboard">
-        <Image
-          src={keyboard}
-          alt="keyboard"
-        />
-      </div>
-      <div className="picture headphone">
-        <Image
-          src={headphone}
-          alt="headphone"
-        />
-      </div>
-      <div className="picture plus-sign">
-        <Image
-          src={plus_sign}
-          alt="plus sign"
         />
       </div>
     </section>
