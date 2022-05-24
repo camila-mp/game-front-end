@@ -6,10 +6,11 @@
   height: fit-content;
   position: relative;
   margin-bottom: 8rem;
+  margin-top: 1rem;
   width: 100vw;
 }
 
-.rewards-container > h6 {
+.rewards-info > h6 {
   align-items: center;
   color: #F2A900;
   display: flex;
@@ -23,7 +24,7 @@
   width: 90%;
 }
 
-.rewards-container > h2 {
+.rewards-info> h2 {
   align-items: center;
   color: white;
   display: flex;
@@ -36,7 +37,7 @@
   margin: 0.3rem 1rem 1rem 1rem;
 }
 
-.rewards-container > p {
+.rewards-info > p {
   color: white;
   position: relative;
   font-family: 'Roboto';
@@ -47,13 +48,17 @@
   margin: 0.5rem 1rem 1rem 1rem;
 }
 
+.box-div {
+  margin-top: 0%;
+}
+
 .prize-boxes {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 
 .grafiti-wrapper {
@@ -62,4 +67,54 @@
   top: 95.5%;
   z-index: 1;
   width: 74%;
+}
+
+@media only screen and (min-width: 650px) {
+  .rewards-info {
+    margin: 1% 9% 3%;
+    width: 100%;
+  }
+
+  .box-div {
+    margin-top: 5%;
+  }
+
+  .prize-boxes {
+    margin: 3% 0 3%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .rewards-container {
+    margin: 5% 0% 9%;
+  }
+
+  .box-div {
+    margin-top: 13%;
+  }
+
+  .prize-boxes {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 1% 0 3%;
+    width: 100%;
+  }
+
+  .rewards-info {
+    margin: 1% 9% 0%;
+    width: 100%;
+  }
+
+  .rewards-info > p {
+    width: 38%;
+  }
+
+  .grafiti-wrapper {
+    left: 71%;
+    top: 22.5%;
+  }
 }

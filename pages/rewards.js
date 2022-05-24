@@ -13,13 +13,16 @@ const Rewards = () => {
 
   return (
     <section className="rewards-container">
-      <h6>vikendi wonderland giveaway</h6>
-      <h2>the event rewards</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit tinci dunst.
-        Nam pulvinar lacinia nisl quis mollis gurqva.
-        Phasellus ullamcorper, mauris rhoncus faucibus pharetr.
-      </p>
+      <div className="rewards-info">
+        <h6>vikendi wonderland giveaway</h6>
+        <h2>the event rewards</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit tinci dunst.
+          Nam pulvinar lacinia nisl quis mollis gurqva.
+          Phasellus ullamcorper, mauris rhoncus faucibus pharetr.
+        </p>
+      </div>
+      
       <div className="prize-boxes">
         <PrizeBox
           title={title_first_prize}
@@ -28,13 +31,15 @@ const Rewards = () => {
         >
           <PicturesPrizeBox1/>
         </PrizeBox>
-        <PrizeBox 
-          title={title_other_prizes}
-          prizes={other_prizes}
-          sprayColor={'blue'}
-        >
-          <PicturesPrizeBox2/>
-        </PrizeBox>
+        <div className="box-div">
+          <PrizeBox 
+            title={title_other_prizes}
+            prizes={other_prizes}
+            sprayColor={'blue'}
+          >
+            <PicturesPrizeBox2/>
+          </PrizeBox>
+        </div>
       </div>
       <div className="grafiti-wrapper">
         <Image
