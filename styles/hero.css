@@ -1,20 +1,22 @@
 .hero-container {
-  background-image: url("../public/Assets/hero-764px.png");
+  background-image: url(/_next/static/media/hero-764px.cf6c585c.png);
   background-repeat: no-repeat;
-  background-position: 50% 100%;
-  height: 100vh;
-  width: 100vw;
+  background-position: center;
+  height: 640px;
+  margin-bottom: 23px;
+  width: 764px;
 }
 
 .spray-wrapper {
   position: relative;
   overflow: hidden;
-  top: 370px;
+  top: 364px;
 }
 
 .spray-wrapper > span {
   max-width: 650px !important;
-  right: 170px !important;
+  right: -9px !important;
+  top: -21px !important;
   width: 623px !important;
 }
 
@@ -24,7 +26,8 @@
 
 .vikendi-wrapper > span {
   height: 107px !important;
-  top: 115px;
+  top: 99px;
+  left: 207px;
   max-width: 345px !important;
   width: 345px !important;
 }
@@ -33,22 +36,23 @@
   height: 48px;
   left: calc(50% - 201px/2);
   position: absolute;
-  top: 585px;
+  top: 556px;
   width: 201px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 850px) {
   .hero-container {
     background-image: url("../public/Assets/hero-1920px.png");
     background-position: 35% 30%;
     background-repeat: no-repeat;
+    background-size: 1920px;
     bottom: 0px;
     overflow: hidden;
     left: -240px;
     right: -240px;
     top: 0px;
     height: 704px;
-    width: 100vw;
+    width: 1920px;
     max-width: 100vw;
   }
 
