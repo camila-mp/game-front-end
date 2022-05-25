@@ -12,7 +12,7 @@ const Rewards = () => {
   const other_prizes = 'CONTRABAND COUPONS AND NICKEL G-COIN BOX';
 
   return (
-    <section className="rewards-container">
+    <section className="rewards-container" id="rewards">
       <div className="rewards-info">
         <h6>vikendi wonderland giveaway</h6>
         <h2>the event rewards</h2>

@@ -14,9 +14,9 @@ const Header = () => {
         />
       </div>
       <nav className="nav-desktop">
-        <a className="nav-link" href="www.google.com">about the event</a>
-        <a className="nav-link" href="www.google.com">rewards</a>
-        <a className="nav-link" href="www.google.com">account</a>
+        <a className="nav-link" href="#about">about the event</a>
+        <a className="nav-link" href="#rewards">rewards</a>
+        <a className="nav-link" href="#account">account</a>
       </nav>
       <nav className="nav">
         <button className="nav-button">login</button>

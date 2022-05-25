@@ -4,7 +4,7 @@ import AboutCharacters from "../components/AboutCharacters";
 
 const About = () => {
   return (
-    <section className="about-page">
+    <section className="about-page" id="about">
       <AboutArticle/>
       <AboutCharacters/>
     </section>
