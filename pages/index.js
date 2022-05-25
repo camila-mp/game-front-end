@@ -4,6 +4,7 @@ import Header from '../components/Header.js';
 import Hero from '../components/Hero';
 import About from './about';
 import Rewards from './rewards';
+import Steps from './steps';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero/>
         <About/>
         <Rewards/>
+        <Steps/>
       </main>
     </div>
   )
