@@ -8,6 +8,8 @@ import '../styles/aboutCharacters.css'
 import '../styles/rewards.css'
 import '../styles/prizeBox.css'
 import '../styles/picturesPrizeBox.css'
+import '../styles/steps.css'
+import '../styles/step.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
