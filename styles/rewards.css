@@ -87,7 +87,8 @@
 
 @media only screen and (min-width: 850px) {
   .rewards-container {
-    margin: 5% 0% 9%;
+    padding: 2.2rem 0% 3rem;
+    margin-bottom: 0rem;
   }
 
   .box-div {
@@ -114,7 +115,7 @@
   }
 
   .grafiti-wrapper {
-    left: 71%;
-    top: 22.5%;
+    left: 70%;
+    top: 29.5%;
   }
 }
