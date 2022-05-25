@@ -1,6 +1,5 @@
 import React from "react";
 import Step from "../components/Step";
-import LoginOrCreateButton from "../components/LoginOrCreateButton";
 
 const Steps = () => {
   const title1 = 'step 1';
@@ -20,10 +19,7 @@ const Steps = () => {
       </div>
       <div className="steps-wrapper">
         <Step title={title1} text={text1}>
-          <LoginOrCreateButton 
-            text={'login'}
-            style={{width: 176, height: 48}}
-          />
+          <button className="login-btn">login</button>
         </Step>
         <Step title={title2} text={text2}/>
         <Step title={title3} text={text3}/>
