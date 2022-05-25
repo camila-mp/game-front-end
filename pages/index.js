@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import footer from '../public/Assets/screenshot-krafton.png';
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header.js';
 import Hero from '../components/Hero';
@@ -20,6 +21,7 @@ export default function Home() {
         <About/>
         <Rewards/>
         <Steps/>
+        <footer className={styles.footer}/>
       </main>
     </div>
   )
