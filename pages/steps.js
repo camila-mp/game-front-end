@@ -1,5 +1,7 @@
 import React from "react";
 import Step from "../components/Step";
+import Image from "next/image";
+import icequeen from "../public/Assets/icequeen_char_alpha.png"
 
 const Steps = () => {
   const title1 = 'step 1';
@@ -23,6 +25,12 @@ const Steps = () => {
         </Step>
         <Step title={title2} text={text2}/>
         <Step title={title3} text={text3}/>
+      </div>
+      <div className="last-char">
+        <Image
+          src={icequeen}
+          alt="line"
+        />
       </div>
     </section>
   )

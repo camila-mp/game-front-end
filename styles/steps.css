@@ -1,15 +1,14 @@
 .steps-container {
   background-image: url('../public/Assets/divider-top.png'), url('../public/Assets/divider-bottom.png'), url('../public/Assets/pubg-kraftonid.png'), url('../public/Assets/dust-light-bg.png');
   background-repeat: no-repeat;
-  background-position: top, bottom, bottom 112% right 270%, center;
-  background-size: auto, auto, 83%, cover;
+  background-position: top, bottom, bottom 436px right 171px, center;
+  background-size: auto, auto, 321px, cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 1rem;
   position: relative;
   overflow: hidden;
-  height: 671px;
   width: 100%;
   z-index: 2;
 }
@@ -57,7 +56,7 @@
 
 .steps-wrapper {
   z-index: 3;
-  margin: 2.5rem 2rem .3rem;
+  margin: 2.5rem 2rem 5.3rem;
 }
 
 .login-btn {
@@ -72,4 +71,38 @@
   font-weight: 500;
   padding: 11px 71px;
   text-transform: uppercase;
+  height: min-content;
+  width: min-content;
+}
+
+.last-char {
+  display: none;
+}
+
+@media only screen and (min-width: 850px) {
+  .steps-wrapper {
+    margin: 2.5rem 0rem .3rem;
+  }
+
+  .steps-title {
+    margin: 9rem 7rem 1rem 4rem;
+  }
+
+  .steps-container {
+    background-image: url('../public/Assets/divider-top.png'), url('../public/Assets/divider-bottom.png'), url('../public/Assets/pubg-kraftonid.png'), url('../public/Assets/dust-light-bg.png');
+    background-position: top, bottom, bottom 444px left -162px, center;
+    background-size: auto, auto, 545px, cover;
+    padding-left: 135px;
+    margin: 0px;
+    height: 870px;
+    width: 100vmax;
+  }
+
+  .last-char {
+    display: block;
+    position: absolute;
+    width: 230px;
+    left: 76%;
+    top: 33%;
+  }
 }
