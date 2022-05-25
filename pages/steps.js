@@ -14,7 +14,7 @@ const Steps = () => {
   const text3 = 'Enter Sweepstakes';
 
   return (
-    <section className="steps-container">
+    <section className="steps-container" id="account">
       <div className="steps-title">
         <h6>vikendi wonderland giveaway</h6>
         <h2>how to participate</h2>
