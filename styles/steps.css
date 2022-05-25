@@ -1,0 +1,61 @@
+.steps-container {
+  background-image: url('../public/Assets/divider-top.png'), url('../public/Assets/divider-bottom.png'), url('../public/Assets/pubg-kraftonid.png'), url('../public/Assets/dust-light-bg.png');
+  background-repeat: no-repeat;
+  background-position: top, bottom, bottom 112% right 270%, center;
+  background-size: auto, auto, 83%, cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+  height: 671px;
+  width: 100%;
+  z-index: 2;
+}
+
+.person-wrapper {
+  position: absolute;
+  bottom: 65%;
+  right: 49%;
+  overflow: hidden;
+  z-index: 1;
+  width: 83%;
+}
+
+.steps-title {
+  z-index: 3;
+  margin: 4rem 2rem 0.3rem;
+}
+
+.steps-title > h6 {
+  align-items: center;
+  color: #F2A900;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Headliner No. 45';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  margin: 0rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.steps-title > h2 {
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Headliner No. 45', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 112%;
+  text-transform: uppercase;
+  margin: 0.3rem 0rem 1rem 0rem;
+}
+
+.steps-wrapper {
+  z-index: 3;
+  margin: 2.5rem 2rem .3rem;
+}
