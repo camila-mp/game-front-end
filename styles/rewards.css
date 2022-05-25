@@ -72,7 +72,7 @@
 @media only screen and (min-width: 650px) {
   .rewards-info {
     margin: 1% 9% 3%;
-    width: 100%;
+    width: 92%;
   }
 
   .box-div {
@@ -85,7 +85,7 @@
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 950px) {
   .rewards-container {
     padding: 2.2rem 0% 3rem;
     margin-bottom: 0rem;
