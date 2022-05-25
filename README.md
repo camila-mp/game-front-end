@@ -24,7 +24,7 @@ A aplicação consiste em uma série de páginas com diversas informações e fi
 Abra o seu Visual Studio Code, aperte ctrl + J e siga as instruções a seguir.
 
 1. Clone o repositório na pasta desejada com o comando:\
-`git@github.com:camila-mp/game-front-end.git`
+`git clone git@github.com:camila-mp/game-front-end.git`
 
 2. Entre na pasta clonada:\
 `cd game-front-end`
