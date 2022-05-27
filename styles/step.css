@@ -18,26 +18,43 @@
   line-height: 144%;
 }
 
-@media only screen and (min-width: 650px) {
+.line {
+  background-color: #878787;
+  height: 2px;
+  opacity: 65%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 312px;
+}
+
+
+@media only screen and (min-width: 850px) {
   .individual-step {
     margin: 31px 17px 34px 30px;
   }
-
+  
   .text-and-btn {
     display: flex;
     flex-direction: row;
   }
-
+  
   .text-and-btn > h6 {
     font-size: 20px;
-    margin: 1rem 2rem 1rem 1.5rem;
+    margin: 1rem 0.8rem 1rem 1.5rem;
+    width: 52px;
   }
+  
+  .text-and-btn > p {
+    margin-right: 40px;
+  }
+  
+  .line {
+    width: 73.5%;
+  }
+}
 
+@media only screen and (min-width: 1130px) {
   .text-and-btn > p {
     margin-right: 32%;
-  }
-
-  .pic-line > span {
-    width: 73.5% !important;
   }
 }
