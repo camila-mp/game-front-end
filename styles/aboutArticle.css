@@ -54,9 +54,20 @@
   margin-top: 10px;
 }
 
+.gradline {
+  background-color: #729DA6;
+  border-radius: 5px;
+  height: 2px;
+  width: 280px;
+}
+
 @media only screen and (min-width: 650px) {
   .about-event-container {
     margin-top: 4%;
     width: 40%;
+  }
+
+  .gradline {
+    width: 401px;
   }
 }
