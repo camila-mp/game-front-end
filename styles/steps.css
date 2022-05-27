@@ -70,6 +70,7 @@
   font-size: 18px;
   font-weight: 500;
   padding: 11px 71px;
+  position: relative;
   text-transform: uppercase;
   height: min-content;
   width: min-content;
@@ -98,6 +99,9 @@
     width: 100vmax;
   }
 
+}
+
+@media only screen and (min-width: 1130px) {
   .last-char {
     display: block;
     position: absolute;
@@ -105,4 +109,5 @@
     left: 76%;
     top: 33%;
   }
+
 }
