@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import line from "../public/Assets/line.png";
 
 const Step = ({ title, text, children}) => {
   return (
@@ -10,12 +8,7 @@ const Step = ({ title, text, children}) => {
         <p>{ text }</p>
         { children }
       </div>
-      <div className="pic-line">
-        <Image
-          src={line}
-          alt="line"
-        />
-      </div>
+      <div className="line"/>
     </section>
   )
 }
