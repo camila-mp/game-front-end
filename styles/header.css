@@ -48,6 +48,10 @@
   height: 48px;
 }
 
+.nav-button-desk {
+  display: none;
+}
+
 .icon-container {
   margin-right: 0px;
   margin-left: 16px;
@@ -67,6 +71,28 @@
 
   .nav-desktop {
     display: flex;
+  }
+
+  .nav-button {
+    display: none;
+  }
+  .nav {
+    padding-right: 40px;
+    margin-right: 13px;
+  }
+
+  .nav-button-desk {
+    display: block;
+    background: #F2A900;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    width: 192px;
   }
   
   .icon-container {

@@ -20,6 +20,7 @@ const Header = () => {
       </nav>
       <nav className="nav">
         <button className="nav-button">login</button>
+        <button className="nav-button-desk">login to earn rewards</button>
         <div className="icon-container">
           <Image
             src={icon}
