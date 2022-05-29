@@ -114,3 +114,11 @@
   }
 
 }
+
+@media only screen and (min-width: 1441px) {
+  .steps-container {
+    background-image: url('../public/Assets/pubg-kraftonid.png'), url('../public/Assets/dust-light-bg.png');
+    background-position: bottom 444px left -162px, center;
+    background-size: 545px, cover;
+  }
+}
