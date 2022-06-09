@@ -1,5 +1,7 @@
 # Boas vindas ao repositório do projeto Game Frontend!
 
+O deploy foi feito no Heroku. **<a href="https://game-frontend-9671.herokuapp.com/">Clique aqui</a>** para visualizar e testar a aplicação.
+
 ## Tecnologias e ferramentas utilizadas
 
 `JavaScript`\
@@ -12,7 +14,7 @@
 `figma`
 
 &nbsp;
-## Sobre a aplicação
+## Sobre
 
 Projeto desenvolvido individualmente como teste técnico para uma vaga na área de Front End. Todas as telas foram desenvolvidas por mim tomando como modelo um layout pré-definido no figma. Cada tela possui uma versão mobile (base 375px) e outra para web (base 1440px). Para obtenção desse design responsivo foi utilizado o conceito de **mobile first**.
 
